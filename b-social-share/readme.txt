@@ -3,7 +3,7 @@ Contributors: bplugins, abuhayat, charlescormier
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, share, social share, page share, Gutenberg block
 Requires at least: 6.2+
-Tested up to: 6.6.2
+Tested up to: 6.7.2
 Stable tag: 1.0.6
 Requires PHP: 7.1
 License: GPLv3 or later
@@ -127,29 +127,4 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Performance improvement
 
 = 1.0.0 =
-* Initial Release
-
-
-== Upgrade Notice ==
-
-= 1.0.6 - 4 Aug 24 =
-* Add translate feature
-
-= 1.0.5 =
-* Add translate feature
-
-= 1.0.4 =
-* Social Item Overflow fix
-
-= 1.0.3 =
-* Reduce PHP Code
-* Performance improvement
-
-= 1.0.2 =
-* Reduce PHP Code
-
-= 1.0.1 =
-* Performance improvement
-
-= 1.0.0 =
-* Initial Release
+* Initial Release.
