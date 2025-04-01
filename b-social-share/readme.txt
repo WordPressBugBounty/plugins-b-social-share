@@ -124,7 +124,7 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Reduce PHP Code
 
 = 1.0.1 =
-* Performance improvement
+* Performance improvement.
 
 = 1.0.0 =
 * Initial Release.
