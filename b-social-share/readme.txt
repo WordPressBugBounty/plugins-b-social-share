@@ -1,10 +1,10 @@
-=== B Social Share Block – Social Sharing Buttons for Posts and Pages ===
-Contributors: bplugins, abuhayat, charlescormier
+=== Social Share Block – Social Sharing Buttons for Posts and Pages ===
+Contributors: bplugins, abuhayat, charlescormier , prosanta10, freemius
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, share, social share, page share, Gutenberg block
 Requires at least: 6.2+
-Tested up to: 6.8
-Stable tag: 1.0.6
+Tested up to: 6.9
+Stable tag: 2.0.0
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -13,14 +13,36 @@ Share your website/website-page link to social networks and mobile messengers.
 
 == Description ==
 
-Share your website/website-page link to social networks and mobile messengers.
+Share your website or pages on social networks and messaging apps. Social Share Block is a lightweight, Gutenberg-native solution designed to boost your social signals without slowing down your site.
+
+Forget bulky scripts that bloat your page. Our block is built specifically for the modern WordPress editor, giving you full control over how your share buttons look—from colors and sizes to layouts and shadows. Whether you need a simple row of icons or a vertical sidebar, you can set it up in seconds.
 
 
-**[Demos](https://bblockswp.com/demo/social-share)**
+[Live Demos](https://bblockswp.com/demo/social-share-all-demo/) | [Pricing](https://bplugins.com/products/b-social-share/pricing/) | [Support](https://bplugins.com/support/) |  [Social Share](https://bplugins.com/products/b-social-share/) 
 
 
-= Features =
-- **Fully Customizable**: All the options you need to arrange the showcase to your liking are available here.
+
+### ⭐ Key Features
+- 4 **Free** Social Share themes  
+- 2 **Premium** Social Share themes in Pro  
+- Popular Social Networks Support
+- Layout Direction – Row , Column
+- Lightweight & Fast – Optimized for speed and performance
+- Gutenberg Block support 
+- Icon Size , Color , background-color customization option 
+- Box-shadow & border customization
+- Shortcode support for any page or widget  
+
+
+### 🔥 Pro Features
+Upgrade to the Pro version for full customization:
+
+- **Premium Share Theme** : Animation icon, Button with text
+- **Interactive Animations**: Professional hover transform effects to catch the user's eye.
+- **Network Labels**: Show social network names (e.g., "Share on Facebook") for higher CTR. 
+- **Floating Positions**: Set your share bar to Fixed or Absolute positions (sticky sidebars).
+- **One-Click Copy**: A dedicated "Copy URL" button for easy link sharing.
+
 
 
 = How to use =
@@ -33,7 +55,9 @@ Share your website/website-page link to social networks and mobile messengers.
 
 
 = Feedback =
-- Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
+Love the plugin? Want new features? Need support?  
+We’d love to hear from you:  
+📩 **[Send your feedback](https://bplugins.com/support/ "Send feedback")**
 
 
 ### Check out the Parent Plugin of this plugin-
@@ -99,13 +123,22 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Screenshots ==
 
-1. Default
-1. Theme 1
-1. Theme 2
-1. Settings
+1. Social Share Admin Dashboard
+2. Add New FAQ (ShortCode)
+3. Default 
+4. Theme One 
+5. Theme Two
+6. Theme Three
+7. Theme Four
+8. Theme Five
+9. Gutenberg Block Support
+10. Gutenberg Block Settings
 
 
 == Changelog ==
+
+= 2.0.0 - 2026-02-05 =
+* Updated with new a lot features and major updates of the plugin
 
 = 1.0.6 - 4 Aug 24 =
 * Add translate feature
@@ -121,10 +154,16 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Performance improvement
 
 = 1.0.2 =
-* Reduce PHP Code
+* Reduce PHP Code.
 
 = 1.0.1 =
 * Performance improvement.
 
 = 1.0.0 =
 * Initial Release.
+
+
+== Upgrade Notice ==
+
+= 2.0.0 - 2026-02-05 =
+* Updated with new a lot features and major updates of the plugin
