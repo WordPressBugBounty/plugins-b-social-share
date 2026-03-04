@@ -1,10 +1,8 @@
 <?php
 
 if (!class_exists('bssPlugin')) {
-
     class bssPlugin
     {
-
         public function __construct()
         {
             add_action('init', [$this, 'bss_register_block']);
@@ -68,8 +66,10 @@ if (!class_exists('bssPlugin')) {
             }
 
             if ('social_share_cpt_page_social_share_Dashboard' === $screen) {
+                $asset = include BSSB_DIR_PATH . 'build/admin-dashboard.asset.php';
+                wp_enqueue_script('vgb-admin-script', BSSB_DIR_URL . 'build/admin-dashboard.js', array_merge($asset['dependencies'], ['wp-util']), BSSB_PLUGIN_VERSION, true);
+
                 wp_enqueue_style('vgb-admin-style', BSSB_DIR_URL . '/build/admin-dashboard.css', false, BSSB_PLUGIN_VERSION);
-                wp_enqueue_script('vgb-admin-script', BSSB_DIR_URL . '/build/admin-dashboard.js', ['react', 'react-dom', 'wp-data', "wp-api", "wp-util", "wp-i18n", "lodash"], BSSB_PLUGIN_VERSION, true);
             }
 
         }
@@ -83,7 +83,7 @@ if (!class_exists('bssPlugin')) {
                 $blocks = parse_blocks($post->post_content);
                 if (!empty($blocks)) {
                     foreach ($blocks as $block) {
-                            return render_block($block);
+                        return render_block($block);
                     }
                 }
             } else {

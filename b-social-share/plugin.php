@@ -3,7 +3,7 @@
 /**
  * Plugin Name: B Social Share - Block
  * Description: Share your website/website-page link to social networks and mobile messengers
- * Version: 2.0.0
+ * Version: 2.0.1
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * License: GPLv3
@@ -16,11 +16,11 @@ if ( !defined( 'ABSPATH' ) ) {
 if ( function_exists( 'bss_fs' ) ) {
     bss_fs()->set_basename( false, __FILE__ );
 } else {
-    define( 'BSSB_PLUGIN_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && ('localhost' === $_SERVER['HTTP_HOST'] || 'counter-block.local' === $_SERVER['HTTP_HOST']) ? time() : '2.0.0' ) );
+    define( 'BSSB_PLUGIN_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && ('localhost' === $_SERVER['HTTP_HOST'] || 'counter-block.local' === $_SERVER['HTTP_HOST']) ? time() : '2.0.1' ) );
     define( 'BSSB_DIR_PATH', plugin_dir_path( __FILE__ ) );
     define( 'BSSB_DIR_URL', plugin_dir_url( __FILE__ ) );
     define( "BSSB_DIR", __DIR__ );
-    define( 'BSSB_HAS_PRO', plugin_basename( __FILE__ ) === 'b-social-share-pro/plugin.php' );
+    define( 'BSSB_HAS_PRO', file_exists( BSSB_DIR_PATH . 'vendor/freemius/start.php' ) );
     if ( !function_exists( 'bss_fs' ) ) {
         function bss_fs() {
             global $bss_fs;
@@ -59,4 +59,7 @@ if ( function_exists( 'bss_fs' ) ) {
     }
     require_once BSSB_DIR_PATH . 'inc/class_bssPlugin.php';
     new bssPlugin();
+    if ( BSSB_HAS_PRO ) {
+        require_once BSSB_DIR_PATH . 'inc/LicenseActivation.php';
+    }
 }

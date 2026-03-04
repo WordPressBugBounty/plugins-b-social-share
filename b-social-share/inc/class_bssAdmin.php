@@ -1,7 +1,6 @@
 <?php
 
 if (!class_exists('bssAdmin')) {
-
     class bssAdmin
     {
         public function __construct()
@@ -12,8 +11,7 @@ if (!class_exists('bssAdmin')) {
             add_action('manage_social_share_cpt_posts_custom_column', [$this, 'bss_manage_custom_column'], 10, 2);
         }
 
-        public function bss_social_share_block_post_type()
-        {
+        public function bss_social_share_block_post_type(){
             register_post_type('social_share_cpt', [
                 'label' => 'B Social Share',
                 'description' => 'this is Social Share and seo friendly card',
@@ -38,8 +36,7 @@ if (!class_exists('bssAdmin')) {
 
             ]);
         }
-        public function bss_social_share_sub_Menu()
-        {
+        public function bss_social_share_sub_Menu(){
             add_submenu_page(
                 'edit.php?post_type=social_share_cpt',
                 'Demo & Help',
@@ -51,26 +48,24 @@ if (!class_exists('bssAdmin')) {
 
         }
 
-        public function social_share_Dashboard_page()
-        {
+        public function social_share_Dashboard_page() {
             ?>
             <div id='vgbDashboard' data-info='<?php echo esc_attr(wp_json_encode([
                 'version' => BSSB_PLUGIN_VERSION,
                 'isPremium' => bssbIsPremium(),
                 'hasPro' => BSSB_HAS_PRO,
+                'licenseActiveNonce' => wp_create_nonce('csbLicenseActive')
             ])); ?>'></div>
             <?php
         }
 
-        public function bss_setCustom_column_edit($column)
-        {
+        public function bss_setCustom_column_edit($column) {
             unset($column['date']);
             $column['shortcode'] = 'ShortCode';
             $column['date'] = 'Date';
             return $column;
         }
-        public function bss_manage_custom_column($column_name, $post_id)
-        {
+        public function bss_manage_custom_column($column_name, $post_id) {
             if ($column_name == 'shortcode') {
                 echo '<div class="bPlAdminShortcode" id="bPlAdminShortcode-' . esc_attr($post_id) . '">
 						<input value="[social-share id=' . esc_attr($post_id) . ']" onclick="copyBPlAdminShortcode(\'' . esc_attr($post_id) . '\')" readonly>
@@ -79,7 +74,5 @@ if (!class_exists('bssAdmin')) {
             }
         }
     }
-
     new bssAdmin();
-
 }
