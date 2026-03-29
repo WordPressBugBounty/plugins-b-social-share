@@ -21,6 +21,7 @@ if (!class_exists('bssPlugin')) {
 
             wp_set_script_translations('bssb-social-share-editor-script', 'social-share', BSSB_DIR_PATH . 'languages');
         }
+        
 
         public function bss_plugins_dependency()
         {

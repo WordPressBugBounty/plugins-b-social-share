@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, share, social share, page share, Gutenberg block
 Requires at least: 6.2+
 Tested up to: 6.9
-Stable tag: 2.0.1
+Stable tag: 2.2.0
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -138,6 +138,11 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 2.2.0 - 2026-03-29 =
+* **Update:** Improved block sidebar user interface for better usability
+* **Update:** Added new style customization options
+* **Update:** Minor UI improvements and code optimization
 
 = 2.0.1 =
 * Add New Dashboard

@@ -2,13 +2,21 @@
   "apiVersion": "3",
   "name": "bssb/social-share",
   "title": "Social Share",
-  "version": "2.0.1",
+  "version": "2.2.0",
   "description": "Share your website/website-page link.",
   "category": "widgets",
   "keywords": [
     "share",
     "social share",
-    "page share"
+    "page share",
+    "share buttons",
+    "social media share",
+    "share block",
+    "social sharing",
+    "wordpress share",
+    "share icons",
+    "share plugin",
+    "social buttons"
   ],
   "textdomain": "social-share",
   "attributes": {
@@ -103,6 +111,12 @@
         "color": "#0000"
       }
     },
+    "hoverBackground": {
+      "type": "object",
+      "default": {
+        "color": ""
+      }
+    },
     "positionType": {
       "type": "string",
       "default": ""
@@ -138,6 +152,16 @@
         "radius": "50%"
       }
     },
+    "hoverIconColor": {
+      "type": "string",
+      "default": ""
+    },
+    "hoverBorder": {
+      "type": "object",
+      "default": {
+        "radius": ""
+      }
+    },
     "shadow": {
       "type": "object",
       "default": {}
@@ -149,6 +173,34 @@
     "transform": {
       "type": "string",
       "default": "0px"
+    },
+    "isCounter": {
+      "type": "boolean",
+      "default": false
+    },
+    "counterText": {
+      "type": "string",
+      "default": "Total Share"
+    },
+    "counterNumber": {
+      "type": "Number",
+      "default": 120
+    },
+    "counterTypo": {
+      "type": "object",
+      "default": {
+        "fontSize": {
+          "desktop": 22,
+          "tablet": 18,
+          "mobile": 16
+        },
+        "fontWeight": 500,
+        "fontFamily": "ABeeZee"
+      }
+    },
+    "counterColor": {
+      "type": "string",
+      "default": "black"
     }
   },
   "supports": {
