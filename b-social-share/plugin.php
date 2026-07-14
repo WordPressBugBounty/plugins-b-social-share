@@ -3,7 +3,7 @@
  * Plugin Name: Social Share Block – Social Sharing Buttons for Posts and Pages
  * Plugin URI: https://bplugins.com/products/b-social-share
  * Description: Share your website/website-page link to social networks and mobile messengers
- * Version: 2.2.2
+ * Version: 2.2.3
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * License: GPLv3 or later

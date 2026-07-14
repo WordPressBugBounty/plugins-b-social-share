@@ -1,322 +1,206 @@
-# Copyright (C) 2024 bPlugins
-# This file is distributed under the GPLv3.
+# Copyright (C) 2026 bPlugins
+# This file is distributed under the GPLv3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: B Social Share - Block 1.0.6\n"
+"Project-Id-Version: Social Share Block – Social Sharing Buttons for Posts and Pages 2.2.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/b-social-share\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-04T04:42:16+00:00\n"
+"POT-Creation-Date: 2026-07-14T08:33:53+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.8.1\n"
-"X-Domain: social-share\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: b-social-share\n"
 
 #. Plugin Name of the plugin
-msgid "B Social Share - Block"
+#: plugin.php
+msgid "Social Share Block – Social Sharing Buttons for Posts and Pages"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://bplugins.com/products/b-social-share"
 msgstr ""
 
 #. Description of the plugin
+#: plugin.php
 msgid "Share your website/website-page link to social networks and mobile messengers"
 msgstr ""
 
 #. Author of the plugin
+#: plugin.php
 msgid "bPlugins"
 msgstr ""
 
 #. Author URI of the plugin
+#: plugin.php
 msgid "https://bplugins.com"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6874
-msgid "Default"
+#: inc/class_bssAdmin.php:18
+#: inc/class_bssAdmin.php:19
+msgid "Demo & Help"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6875
-msgid "Theme 1"
+#: inc/class_bssAdmin.php:39
+msgid "JavaScript is required to load the B Social Share Dashboard."
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6876
-msgid "Theme 2"
+#: inc/class_bssAdmin.php:43
+msgid "Loading Dashboard..."
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6880
-msgid "Social Networks"
+#: inc/class_bssAdmin.php:51
+msgid "Shortcode"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6881
-msgid "Mobile Messenger"
+#: inc/class_bssAdmin.php:52
+msgid "Date"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6885
-msgid "Facebook"
+#: inc/class_bssAdmin.php:64
+#: build/shortcode.js:1
+msgid "Copy to Clipboard"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6886
-msgid "Twitter"
+#: inc/class_bssPlugin.php:29
+#: inc/class_bssPlugin.php:32
+#: inc/class_bssPlugin.php:34
+msgid "B Social Share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6887
-msgid "LinkedIn"
+#: inc/class_bssPlugin.php:30
+msgid "This is a Social Share and SEO-friendly card"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6888
-msgid "Pinterest"
+#: inc/class_bssPlugin.php:33
+msgid "Social Share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6889
-msgid "Blogger"
+#: inc/class_bssPlugin.php:35
+msgid "All Social Shares"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6890
-msgid "WordPress"
+#: inc/class_bssPlugin.php:36
+msgid "Add New"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6891
-msgid "Tumblr"
+#: inc/class_bssPlugin.php:37
+msgid "Add New Social Share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6892
-msgid "Reddit"
+#: inc/class_bssPlugin.php:38
+msgid "Edit Social Share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6893
-msgid "Digg"
+#: inc/class_bssPlugin.php:39
+msgid "New Social Share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6894
-msgid "LiveJournal"
+#: inc/class_bssPlugin.php:40
+msgid "View Social Share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6895
-msgid "Evernote"
+#: inc/class_bssPlugin.php:41
+msgid "View Social Shares"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6896
-msgid "Flipboard"
+#: inc/class_bssPlugin.php:42
+msgid "Search Social Share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6897
-msgid "Mix"
+#: inc/class_bssPlugin.php:43
+msgid "Sorry, we couldn't find the ShortCode you are looking for."
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6898
-msgid "Pocket"
+#: inc/class_bssPlugin.php:44
+msgid "Parent Social Share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6899
-msgid "Buffer"
+#: inc/class_bssPlugin.php:45
+msgid "Parent Social Share:"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6900
-msgid "Instapaper"
+#: inc/class_bssPlugin.php:46
+msgid "Update Social Share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6902
-msgid "Meneame"
+#: inc/class_bssPlugin.php:107
+msgid "Please provide a valid numeric ID."
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6904
-msgid "Baidu"
+#: inc/class_bssPlugin.php:133
+#, php-format
+msgid "Error: Social Share block with ID %d not found."
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6905
-msgid "Weibo"
+#: build/shortcode.js:1
+msgid "Copied Successfully!"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6906
-msgid "Xing"
+#: build/block.json
+msgctxt "block title"
+msgid "Social Share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6907
-msgid "RenRen"
+#: build/block.json
+msgctxt "block description"
+msgid "Share your website/website-page link."
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6909
-msgid "Vkontakte (VK)"
+#: build/block.json
+msgctxt "block keyword"
+msgid "share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6910
-msgid "Odnoklassniki"
+#: build/block.json
+msgctxt "block keyword"
+msgid "social share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6911
-msgid "My World@Mail.Ru"
+#: build/block.json
+msgctxt "block keyword"
+msgid "page share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6912
-msgid "Surfingbird"
+#: build/block.json
+msgctxt "block keyword"
+msgid "share buttons"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6913
-msgid "LiveInternet"
+#: build/block.json
+msgctxt "block keyword"
+msgid "social media share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6917
-msgid "SMS"
+#: build/block.json
+msgctxt "block keyword"
+msgid "share block"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6918
-msgid "Skype"
+#: build/block.json
+msgctxt "block keyword"
+msgid "social sharing"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6919
-msgid "Telegram"
+#: build/block.json
+msgctxt "block keyword"
+msgid "wordpress share"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6920
-msgid "Viber"
+#: build/block.json
+msgctxt "block keyword"
+msgid "share icons"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6921
-msgid "WhatsApp"
+#: build/block.json
+msgctxt "block keyword"
+msgid "share plugin"
 msgstr ""
 
-#: dist/editor.js:1
-#: dist/editor.js:6922
-msgid "WeChat"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:6923
-msgid "LINE"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7117
-msgid "Add or Remove socials"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7122
-msgid "Network Type:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7136
-msgid "Network:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7148
-msgid "Upload Icon?"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7151
-#: dist/editor.js:7154
-msgid "Icon:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7152
-msgid "Enter Icon URL"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7157
-msgid "Remove"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7159
-msgid "Duplicate"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7164
-msgid "Add New Social"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7169
-msgid "Social Icon"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7171
-msgid "Theme:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7201
-msgid "Background:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7203
-msgid "Size:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7205
-msgid "Padding:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7207
-msgid "Space Between:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7209
-msgid "Border:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7211
-msgid "Shadow:"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7218
-msgid "Social Icons in left"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7219
-msgid "Social Icons in center"
-msgstr ""
-
-#: dist/editor.js:1
-#: dist/editor.js:7220
-msgid "Social Icons in right"
+#: build/block.json
+msgctxt "block keyword"
+msgid "social buttons"
 msgstr ""

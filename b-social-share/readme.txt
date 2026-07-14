@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, share, social share, share buttons, social sharing
 Requires at least: 6.5
 Tested up to: 7.0
-Stable tag: 2.2.2
+Stable tag: 2.2.3
 Requires PHP: 7.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
@@ -138,6 +138,10 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog == 
+
+= 2.2.3 - 2026-07-14 =
+* Update: Improved Admin Dashboard.
+* Fixed: style and assets loading performance issue.
 
 = 2.2.2 - 2026-05-20 =
 * Fix: Removed all premium/trialware feature gating
