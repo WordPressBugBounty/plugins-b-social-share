@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, share, social share, share buttons, social sharing
 Requires at least: 6.5
 Tested up to: 7.0
-Stable tag: 2.2.3
+Stable tag: 2.4.0
 Requires PHP: 7.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
@@ -36,15 +36,20 @@ Forget bulky scripts that bloat your page. Our block is built specifically for t
 - Shortcode support for any page or widget  
 
 
-### 🔥 Available in the Premium Features
-Upgrade to the Pro version for full customization:
+### 🔥 Premium Features & Pro Blocks
+Upgrade to the Pro version to unlock a full suite of social engagement blocks:
 
-- **Premium Share Theme** : Animation icon, Button with text
-- **Interactive Animations**: Professional hover transform effects to catch the user's eye.
-- **Network Labels**: Show social network names (e.g., "Share on Facebook") for higher CTR. 
-- **Floating Positions**: Set your share bar to Fixed or Absolute positions (sticky sidebars).
-- **One-Click Copy**: A dedicated "Copy URL" button for easy link sharing.
-
+- **Floating Share Bar** : a sticky, viewport-pinned share bar that follows the scroll, with show-on-all-pages / home / specific-pages visibility control.
+- **Click to Chat** : a floating WhatsApp, Messenger, Telegram, phone, SMS, or email contact button you can show site-wide.
+- **Share Locker** : lock content until visitors share your page; great for coupons, downloads, and lead generation.
+- **Highlight to Share** : let visitors select any text and share it instantly with a floating tooltip (click-to-tweet style).
+- **QR Code Share** : generate a scannable QR code to the current page for quick mobile sharing.
+- **Follow Buttons** : link visitors to your social profiles with follower counts.
+- **Click to Share** & **Share Card** : pre-styled call-to-action share blocks.
+- **Premium Share Themes** : animated icons and button-with-text styles.
+- **Interactive Animations** : professional hover transform effects to catch the user's eye.
+- **Network Labels** : show network names (e.g., "Share on Facebook") for higher CTR.
+- **One-Click Copy** : a dedicated "Copy URL" button for easy link sharing.
 
 
 = How to use =
@@ -138,6 +143,24 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog == 
+
+= 2.4.0 - 2026-07-22 =
+* New: Added 10 brand-new Gutenberg blocks to expand social sharing options:
+    * Share Locker: Lock content until the visitor shares to a specified number of networks.
+    * Floating Share Bar: Display sharing buttons with site-wide, home page only, or page-specific visibility controls.
+    * Click to Chat: Direct chat links (WhatsApp, Telegram, Viber, Skype, etc.) with site-wide or page-specific visibility rules.
+    * QR Code Share: Responsive shareable QR codes with device-specific width/height (Desktop, Tablet, Mobile).
+    * Highlight to Share: Redesigned network manager with custom per-network values (Twitter/X handle, email, WhatsApp, subreddit).
+    * Follow Buttons: Social media profile follow buttons with in-editor management (add, edit, duplicate, reorder).
+    * Click to Share: Custom call-to-action boxes to easily share snippet texts.
+    * Share Card: Premium templates and cards to showcase sharing buttons beautifully.
+    * Share Count Total: Aggregate social share counter to display social proof.
+    * Share Modal Trigger: Pop-up modal containing sharing buttons triggered by user click.
+* Fix: Synchronized plugin version metadata across the main plugin header, block metadata, and readme.
+* Tweak: Improved UI styling, security escaping, and overall code quality across all blocks.
+
+* New: Highlight to Share — redesigned network manager (add, remove, reorder, change networks) plus an optional per-network share value (Twitter/X handle, recipient email, WhatsApp number, subreddit).
+* Tweak: Minor UI, escaping, and code-quality improvements across blocks.
 
 = 2.2.3 - 2026-07-14 =
 * Update: Improved Admin Dashboard.
