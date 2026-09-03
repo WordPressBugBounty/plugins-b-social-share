@@ -1,5 +1,5 @@
 === Social Share Block – Help Visitors Spread Your Content Everywhere ===
-Contributors: bplugins, abuhayat, charlescormier, prosanta10
+Contributors: bplugins, abuhayat, prosanta10
 Tags: share, social share, share buttons, social sharing, block
 Tested up to: 7.1
 Stable tag: 2.4.0
