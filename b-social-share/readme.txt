@@ -17,11 +17,19 @@ Add lightweight social share buttons to WordPress posts and pages. Gutenberg-nat
 
 [**Social Share**](https://bplugins.com/products/b-social-share/) | [**Pricing**](https://bplugins.com/products/b-social-share/pricing/) | [**Support**](https://bplugins.com/support/) | [**Live Demos**](https://bblockswp.com/demo/social-share-all-demo/)
 
-### Why Social Share Block?
+Help visitors share your content through supported social networks and messaging services. Choose a ready-made theme, customize button colors and icon sizes, switch between row and column layouts, and configure the block directly in the WordPress Gutenberg editor.
 
-Share your website or pages on social networks and messaging apps with a solution built for the modern WordPress editor. **Social Share Block** is lightweight and Gutenberg-native, designed to boost your social signals without the bulky scripts that bloat your page.
+The plugin also supports shortcodes for displaying social sharing buttons in supported areas outside the standard block editor workflow.
 
-You get full control over how your share buttons look – colors, sizes, layouts, backgrounds, and shadows. Whether you need a simple row of icons or a vertical column, you can set it up in seconds from the block sidebar, or drop the buttons anywhere with a shortcode.
+Use Social Share Block to add social sharing to blogs, business websites, marketing pages, developer documentation, portfolios, and other content-focused WordPress websites.
+
+### What Is Social Share Block?
+
+Social Share Block is a Gutenberg-based WordPress social sharing plugin for adding share buttons to your website. It helps visitors share articles, tutorials, pages, products, and other content using the available sharing options.
+
+The free plugin includes customizable social share buttons, ready-made themes, row and column layouts, styling controls, and shortcode support. Additional social engagement blocks are available through the optional Pro offering.
+
+Need more than standard share buttons? The optional Pro offering adds social engagement blocks for floating share bars, click-to-chat links, QR code sharing, text highlighting, share-to-unlock content, follow buttons, share cards, and share modals.
 
 ### Free Features
 
@@ -49,28 +57,6 @@ Upgrade to [**Social Share Block Pro**](https://bplugins.com/products/b-social-s
 - **Network Labels:** Show network names (e.g., "Share on Facebook") for higher CTR.
 - **One-Click Copy:** A dedicated "Copy URL" button for easy link sharing.
 
-### How to Use – Quick Start
-
-1. Install and activate the **B Social Share** plugin.
-2. In the Gutenberg editor, add the **Social Share** block from the "Widgets" block category.
-3. Pick a theme and adjust colors, sizes, and layout from the right-side settings sidebar.
-4. Publish – or use the shortcode to place buttons anywhere. Enjoy!
-
-For installation help, see the Installation tab.
-
-### Use Cases
-
-- **Blogs & Magazines:** Help readers share articles, stories, and news.
-- **Business Websites:** Increase the reach of company pages, services, and resources.
-- **Marketing Websites:** Add social sharing calls to action to landing pages and campaigns.
-- **Content Creators:** Encourage audiences to share valuable articles, guides, and resources.
-- **Developer Websites:** Add sharing options to tutorials, documentation, and technical articles.
-- **Portfolio Websites:** Make projects and case studies easier to share.
-- **Online Courses:** Let students share useful lessons and resources.
-- **Lead Generation:** Use Share Locker for share-to-unlock campaigns, downloads, and offers.
-- **Mobile Audiences:** Use QR Code Share and messaging options for mobile-friendly sharing.
-- **Community Websites:** Encourage visitors to distribute useful content across their social networks.
-
 
 == Social Engagement Blocks ==
 
@@ -88,6 +74,34 @@ Use the blocks together to build a complete social engagement strategy:
 - Share Count Total
 - Share Modal Trigger
 - Click to Chat
+
+### Highlight to Share
+
+Allow visitors to select text on a page and share the selected content using a floating sharing interface.
+
+### QR Code Share 
+
+Generate a QR code for the current page so visitors can scan and open the content on another device.
+
+### Follow Buttons
+
+Add social profile buttons that direct visitors to your social media profiles.
+
+### Click to Share
+
+Create call-to-action blocks that make selected text or content easier for visitors to share.
+
+### Share Card
+
+Display sharing options inside pre-designed share card layouts.
+
+### Share Count Total
+
+Display an aggregated sharing count as social proof.
+
+###Share Modal Trigger
+
+Open sharing options inside a modal when visitors click a trigger.
 
 ### Why Use Social Share Block?
 
@@ -109,6 +123,40 @@ You can:
 - Generate QR codes for mobile sharing with Pro.
 - Display social proof with a share counter.
 - Create custom share cards and share modals.
+
+### How to Customize Social Share Buttons
+
+ - Open the post or page containing the Social Share block.
+ - Select the block in the Gutenberg editor.
+ - Open the block settings sidebar.
+ - Choose a share theme.
+ - Adjust the layout and available styling options.
+ - Preview your changes.
+ - Save or update the page.
+
+Available customization options depend on the selected block and its settings.
+
+### Use Cases
+
+- **Blogs & Magazines:** Help readers share articles, stories, and news.
+- **Business Websites:** Increase the reach of company pages, services, and resources.
+- **Marketing Websites:** Add social sharing calls to action to landing pages and campaigns.
+- **Content Creators:** Encourage audiences to share valuable articles, guides, and resources.
+- **Developer Websites:** Add sharing options to tutorials, documentation, and technical articles.
+- **Portfolio Websites:** Make projects and case studies easier to share.
+- **Online Courses:** Let students share useful lessons and resources.
+- **Lead Generation:** Use Share Locker for share-to-unlock campaigns, downloads, and offers.
+- **Mobile Audiences:** Use QR Code Share and messaging options for mobile-friendly sharing.
+- **Community Websites:** Encourage visitors to distribute useful content across their social networks.
+
+### How to Use – Quick Start
+
+1. Install and activate the **B Social Share** plugin.
+2. In the Gutenberg editor, add the **Social Share** block from the "Widgets" block category.
+3. Pick a theme and adjust colors, sizes, and layout from the right-side settings sidebar.
+4. Publish – or use the shortcode to place buttons anywhere. Enjoy!
+
+For installation help, see the Installation tab.
 
 Love the plugin? Want new features? Need support? **[Send your feedback](https://bplugins.com/support/ "Send feedback")**.
 
@@ -177,6 +225,9 @@ Yes. The Pro Highlight to Share block allows visitors to select text and share i
 
 = Can I add a QR code for sharing a WordPress page? =
 Yes. The Pro QR Code Share block generates a scannable QR code for sharing the current page.
+
+= Can I create a share-to-unlock campaign? =
+Yes. The optional Pro offering includes Share Locker for creating supported share-to-unlock experiences.
 
 
 = Can I customize the look of the share buttons? =
